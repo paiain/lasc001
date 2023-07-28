@@ -1,0 +1,1 @@
+web: gunicorn LASC001.wsgi

@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver",
+                "--settings=LASC001.local_settings"
+            ],
+            "django": true,
+        },
+    ],
+}
